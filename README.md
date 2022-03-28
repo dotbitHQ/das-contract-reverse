@@ -17,6 +17,7 @@ The related contract addresses are all the same on any EVM chains, because of th
 
 ## Usage
 
+### Set
 Simply use proxy contract only. Take ETH as an example
 
 1. Open this [link](https://etherscan.io/address/0xf4cc55f3da1db69b3b15a94400f4927d5a619a90#writeProxyContract) with Chrome
@@ -24,6 +25,14 @@ Simply use proxy contract only. Take ETH as an example
 3. Expand the function `setReverseName`
 4. Fill in the form with the `.bit` name and contract address
 5. Send the tx by click `Write` button
+
+### Query
+Also take ETH as an example
+
+1. Open this [link](https://etherscan.io/address/0xf4cc55f3da1db69b3b15a94400f4927d5a619a90#readProxyContract) with Chrome
+2. Expand the function `names`
+3. Input the contract address you want to query
+4. After clicking `Query` button, it will shown a `.bit` name (the reverse result of the contract address you just input)
 
 ## Others
 1. The audit report is shown on [SlowMist](https://www.slowmist.com/en/)'s [github](https://github.com/slowmist/Knowledge-Base/blob/master/open-report/SlowMist%20Audit%20Report%20-%20Das%20Contract%20Reverse.pdf)
